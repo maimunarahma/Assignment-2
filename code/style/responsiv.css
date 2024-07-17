@@ -1,0 +1,25 @@
+ @media screen and (max-width:576px){
+    ul{
+        display: none;
+    }
+   
+    .hamburger{
+        display: block;
+        color: white;
+    }
+    .navbar{
+  margin-bottom: 20px;
+    }
+    .banner1{   
+      flex-direction: column;
+       
+    }
+ .content,.pro-pic{
+    width: 50%;
+    padding: 0 ;
+}
+
+ .moves{
+    flex-direction:column;
+ }
+}
