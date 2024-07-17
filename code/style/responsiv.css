@@ -22,4 +22,7 @@
  .moves{
     flex-direction:column;
  }
+ .banner3{
+    flex-direction: column;
+ }
 }

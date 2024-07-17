@@ -81,6 +81,8 @@ background-blend-mode: overlay;
     background-color:rgb(230, 83, 60) ;
     color: white;
     padding: 1rem 2.8rem;
+    width: 224px;
+    height: 54px;
  }
  .btn-scnd{
     border-radius: 42px;
@@ -126,4 +128,42 @@ background-blend-mode: overlay;
  .moves img{
    border-radius: 5rem;
    margin-bottom: 30px;
+ }
+
+ /* banner3 */
+ .banner3{
+   max-width: 1060px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   margin: 0 7rem;
+   margin-top: 50px;
+   background-color: rgb(34, 34, 34);
+   background-blend-mode: overlay;
+   border-radius: 20px;
+ }
+ .b3-description{
+   width: 55%;
+   color: white;
+   text-align: left;
+   
+   padding: 20px;
+ }
+ .run{
+   width: 45%;
+   
+   padding: 20px;
+ }
+ .run img{
+   width: 100%;
+   border-radius: 40px;
+   
+ }
+ .row1{
+   display: grid;
+   grid-template-columns: 20% 60% 20%;
+ }
+ .row1{
+   display: grid;
+   grid-template-columns: 40% 20% 40%;
  }
