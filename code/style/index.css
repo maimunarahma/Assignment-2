@@ -6,12 +6,18 @@
    
     font-style: normal;
   }
+  .font-awesome{
+   font-family: "Playwrite CU", cursive;
+  }
 *{
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
 }
+ .bg{
+   background-color: rgb(34, 34, 34);
+ }
  header{
     padding: 0 7rem;
     background-color: 
@@ -24,7 +30,11 @@ background-blend-mode: overlay;
     font-size: 2.2rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
+    margin-right: 500px;
  }
+    /* .nav-wraper{
+      padding: 0 7rem;
+    } */
  .navbar{
     margin: 0 auto;
     display: flex;
@@ -32,16 +42,17 @@ background-blend-mode: overlay;
     align-items: center;
     margin-top: 3.8rem;
     margin-bottom: 5rem;
-   
+    /* padding: 0 5rem; */
  }
  
  ul{
    margin-right: 20px;
    display: flex;
    justify-content: space-between;
+   align-items: center;
  }
  li{
-   margin-right: 20px;
+   margin-right: 80px;
     list-style: none;
  }
  a{
@@ -54,6 +65,7 @@ background-blend-mode: overlay;
  .banner1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
  }
  .banner1-child{
     width: 50%;
@@ -71,12 +83,15 @@ background-blend-mode: overlay;
     margin-bottom: 2rem;
     color: rgba(255, 255, 255, 0.5);
  }
+   .btns{
+      display: inline;
+   }
  .btn-prime{
     border-radius: 42px;
     background-color:rgb(230, 83, 60) ;
     color: white;
     padding: 1rem 2.8rem;
-    width: 224px;
+    width: 150px;
     height: 54px;
  }
  .btn-scnd{
@@ -84,10 +99,12 @@ background-blend-mode: overlay;
     border: 1px solid white;
     padding: 1rem 2.8rem;
     color: white;
+    width: 150px;
+    height: 54px;
  }
  
  .banner1-child img{
-    width: 100%;
+    width: 70%;
  }
  /* banner2 */
  .banner2{
@@ -124,39 +141,224 @@ background-blend-mode: overlay;
  }
 
  /* banner3 */
- .banner3{
+ /* .banner3{
+   /* max-width: 1060px; */
+   /* margin: 0 auto; */
+   /* margin: 0 5rem; */
+   /* margin-top: 50px;
+   margin-bottom: 50px;
+  
+ } */ */
+  .fitness-run{
    max-width: 1060px;
    display: flex;
    justify-content: space-between;
-   margin: 0 auto;
-   margin: 0 7rem;
-   margin-top: 50px;
-   background-color: rgb(34, 34, 34);
-   background-blend-mode: overlay;
+   align-items: center;
+  
+   /* background-color: rgba(255, 255, 255, 0.293); */
    border-radius: 20px;
- }
+  }
  .b3-description{
-   width: 55%;
+   width: 50%;
    color: white;
    text-align: left;
-   
-   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.293);
+   padding: 50px;
+ }
+ .b3-description h1{
+   margin-bottom: 40px;
+  
+ }
+ .b3-description p{
+   color: rgba(255, 255, 255, 0.6);
+   margin-bottom: 40px;
+   font-size: 1rem;
+   font-weight: 400;
+   /* background-color: rgba(255, 255, 255, 0.293); */
  }
  .run{
-   width: 45%;
-   
-   padding: 20px;
+   width: 50%;
+    background-color: rgba(255, 255, 255, 0.293); 
+   padding: 50px; 
  }
  .run img{
    width: 100%;
    border-radius: 40px;
+   /* background-color: rgba(255, 255, 255, 0.293); */
+ }
+
+ .banner4-heading{
+   margin-top: 200px;
+   color: white;
+   margin: 0 7rem;
+ }
+
+ .grid-colum-sction{
+   /* max-width: 1060pc; */
+   padding: 0 7rem;
+   margin-bottom: 50px;
+ }
+ .image-frame{
+   
+   display: grid;
+   min-height: 350px;
+   grid-template-columns: repeat(12,1fr);
    
  }
- .row1{
-   display: grid;
-   grid-template-columns: 20% 60% 20%;
+ .child1{
+   grid-column: 1/span 4;
+  background-color: rgba(6, 255, 209, 0.333); 
+   background-blend-mode: overlay;
+   /* filter: drop-shadow(rgba(6, 255, 210, 0.5)); */
  }
- .row1{
-   display: grid;
-   grid-template-columns: 40% 20% 40%;
+   .child1 p{
+      position: relative;
+      left: 50px;
+      color:yellow;
+      bottom:50px;
+      font-size: 20px;
+      font-weight: 600;
+
+   }
+ .child2{
+   grid-column: 5/span 5;
  }
+ .child2 p{
+   position: relative;
+   left: 80px;
+   color:yellow;
+   bottom:280px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .child3{
+   grid-column: 10/span 3;
+ }
+
+ .child3 p{
+   position: relative;
+   left: 2px;
+   color:yellow;
+   bottom:75px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .child4{
+   grid-column: 1/span 5;
+ }
+ .child4 p{
+   position: relative;
+   left: 300px;
+   color:yellow;
+   bottom:340px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .child5{
+   grid-column: 6/span 3;
+ }
+ .child5 p{
+   position: relative;
+   left: 50px;
+   color:yellow;
+   bottom:320px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .child6{
+   grid-column: 9/span 4;
+ }
+ .child6 p{
+   position: relative;
+   left: 30px;
+   color:yellow;
+   bottom:80px;
+   font-size: 20px;
+   font-weight: 600;
+
+}
+ .image-frame img{
+   width: 100%;
+   height: 100%;
+ }
+ .bmi{
+   color: white;
+   text-align: center;
+ }
+
+ .Calculator{
+   margin: 0 auto;
+   padding:0 7rem;
+   display: flex;
+   justify-content: space-between;
+   /* color: white; */
+   background-color:rgb(34, 34, 34);
+   /* border: 2px solid yellow; */
+   margin-bottom: 50px;
+ }
+ td{
+   padding: 15px 15px 15px;
+   border: 1px solid rgba(255, 255, 255, 0.6);
+   width: 50%;
+ }
+ th {
+   border: 1px solid rgba(255, 255, 255, 0.6);
+   width: 50%;
+   
+ }
+   table{
+   /* margin-left: 150px; */
+   padding: 150px 150px;
+   border: none;
+ }
+ .ranges h1,.frms h1{
+   font-size: 1.5rem;
+   font-weight: 900;
+   color: white;
+   margin: 50px;
+   margin-left: 150px;
+ }
+   .frms p{
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.6);
+   
+   }
+ .ranges,.frms{
+   width:50%;
+   text-align: center;
+ }
+   form>div{
+    text-align: center;
+   }
+  td,input,select{
+   color: rgba(255, 255, 255, 0.6);
+  }
+
+      /* team */
+      .visual-team{
+        max-width: 1100px;
+      }
+      .heaing-of-team{
+         text-align: center;
+      }
+
+      
+    .cards{
+      padding: 0 7rem;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 2px 1px;
+      background-color: rgba(255, 255, 255, 0);
+      justify-content: space-between;
+      align-items: center;
+    }
+      .cards img{
+         border-radius: 20px;
+         width: 70%;
+      }
+     

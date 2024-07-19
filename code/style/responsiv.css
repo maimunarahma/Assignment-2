@@ -17,15 +17,12 @@
     }
     .banner1{   
       flex-direction: column;
-    
-      
-       
     }
  .banner1-child{
     /* max-width: 350px; */
     width: 100%;
     text-align: left;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     padding: 0 0;
     
 }
@@ -35,5 +32,62 @@
  }
  .banner3{
     flex-direction: column;
+    /* max-width: 350px; */
+    margin: 0 2rem;
+   /* border: 2px solid yellow; */
+   
+    text-align: left;
+    
+ }
+ .b3-description,.run{
+    width: 100%;
+ }
+
+ .banner4-heading{
+    text-align: left;
+    padding: 0 2rem;
+ }
+ .grid-colum-sction{
+    padding: 0 2rem;
+ }
+ .image-frame{
+   
+    min-height: 250px;
+ }
+ .child1{
+    grid-column: 1/span 7;
+    /* grid-row:1/span 6; */
+    /* fill: rgba(6, 255, 210, 0.5); */
+    /* background-blend-mode: overlay; */
+    filter: drop-shadow(rgba(6, 255, 210, 0.5));
+  }
+  .child2{
+    grid-column: 8/span 6;
+    /* grid-row:7/span 6; */
+  }
+    .child3{
+        display: none;
+    }
+  .child4{
+    grid-column: 1/span 5;
+    /* grid-row:1/span 6; */
+  }
+  .child5{
+    grid-column: 6/span 7;
+    /* grid-row: 7/span 6; */
+  }
+  .child6{
+    display: none;
+}
+
+ .Calculator{
+   flex-direction: column;
+   padding: 0 2rem;
+   width: 100%;
+
+ }
+ table{
+   padding: 5px 5px;
+   width: 100%;
  }
 }
