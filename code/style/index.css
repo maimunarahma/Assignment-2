@@ -1,364 +1,740 @@
-  
-  
-  .inter-normal{
+  .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-   
+
     font-style: normal;
   }
-  .font-awesome{
-   font-family: "Playwrite CU", cursive;
+
+  .font-awesome {
+    font-family: "Playwrite CU", cursive;
   }
-*{
-    margin: 0 ;
+
+  * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-}
- .bg{
-   background-color: rgb(34, 34, 34);
- }
- header{
+  
+
+  }
+
+  .bg {
+    background-color: rgb(34, 34, 34);
+  }
+
+  /* Shared Styles. */
+  .display-flex {
+    display: flex;
+  }
+
+  header {
+    width: 100%;
+    background:linear-gradient(180deg,rgb(17,17,17),rgba(119,119,119,0),100%);
+    background: linear-gradient(180deg,rgba(62,74,74,1) -20%, rgb(42,42,42 / 99%) -50% ,rgba(0,0,0,1) 100%);
+
+  }
+  .display{
     padding: 0 7rem;
-    background-color: 
-      rgb(17, 17, 17),
-rgba(119, 119, 119, 0);
-background-blend-mode: overlay;
-    
- }
- .logo{
+    background-color: black;
+  }
+
+  .logo {
     font-size: 2.2rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
     margin-right: 500px;
- }
-    /* .nav-wraper{
+  }
+
+  /* .nav-wraper{
       padding: 0 7rem;
     } */
- .navbar{
+    
+  
+  .navbar {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.8rem;
+    padding-top: 3.8rem;
     margin-bottom: 5rem;
+    /* background-color: black; */
     /* padding: 0 5rem; */
- }
- 
- ul{
-   margin-right: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- li{
-   margin-right: 80px;
-    list-style: none;
- }
- a{
-    text-decoration: none;
-    color: white;
- }
- /* .hamburger{
-   display: none;
- } */
- .banner1{
+  }
+
+  ul {
+    margin-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .banner1-child{
+    border: .1px solid white;
+    border-radius: 50px;
+    padding: 3px;
+  }
+
+  /* .nav-btn{
+  width: 300px;
+  height: 50px;
+  color: white;
+  border: 2px solid white;
+ } */
+  li {
+    margin-right: 80px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-home{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+  }
+  .hamburger {
+    display: none;
+    
+  }
+
+  .banner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner1-child {
     width: 50%;
     color: white;
-    padding: 0 5rem ;
- }
- .banner1-child h1{
+    /* padding: 0 5rem ; */
+  }
+
+  .banner1-child h1 {
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 2rem;
- }
- .banner1-child p{
+  }
+
+  .banner1-child p {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 2rem;
     color: rgba(255, 255, 255, 0.5);
- }
-   .btns{
+  }
+
+  /* .btns{
       display: inline;
-   }
- .btn-prime{
+   } */
+  .btn-prime {
     border-radius: 42px;
-    background-color:rgb(230, 83, 60) ;
+    background-color: rgb(230, 83, 60);
     color: white;
-    padding: 1rem 2.8rem;
-    width: 150px;
+    padding: 1rem .5rem;
+    font-weight: 800;
+    width: 200px;
     height: 54px;
- }
- .btn-scnd{
+  }
+
+  .btn-scnd {
     border-radius: 42px;
     border: 1px solid white;
-    padding: 1rem 2.8rem;
+    padding: 1rem 1rem;
+    background-color: black;
+    font-weight:800;
     color: white;
     width: 150px;
     height: 54px;
- }
+  }
+
+  .pro-pic {
+    position: relative;
+  }
+
+  .banner1-child img {
+    width: 50%;
+  }
+
+  .video {
+    width: 180px;
+    height: 90px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background: transparent;
+    /* background: blur(3%); */
+  }
+  .circle{
+    width: 25px;
+    height: 25px;
+     border-radius: 50%;
+     background-color: red;
+    margin-left: 10px;
+  }
+  .tutorial {
+    position: absolute;
+    bottom: 90px;
+    left: -50px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+  }
+
+  .Free {
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+  }
+
+  /* banner2 */
+  .move-segment{
+   
+    /* width: 100%; */
+    background-color: black;
+  }
+  .banner2{
+    max-width: 1044px;
+    margin: 0 auto;
+    background-color: black;
+  
+    /* padding: 0 7rem; */
+    /* margin-top: 50px; */
+  /* background-color: rgba(255, 255, 255, 0.293); */
+  }
+  .move-segment-details{
+    /* text-align: center; */
+    
  
- .banner1-child img{
-    width: 70%;
- }
- /* banner2 */
- .banner2{
-   max-width: 1044px;
-   text-align: center;
-   color: white;
-   margin: 0 auto;
-   padding: 0 7rem;
-   margin-top: 50px;
- }
- .card{
-   max-width: 230px;
- }
- .banner2 h1{
-   font-size: 1.2rem;
-   font-weight: 600;
-   margin-bottom: 30px;
- }
- .banner2 p{
-   font-size: 1rem;
-   font-weight: 400;
-   margin-bottom: 20px;
-   color: rgba(255, 255, 255, 0.5);
- }
- .moves{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 70px;
- }
- .moves img{
-   border-radius: 5rem;
-   margin-bottom: 30px;
- }
-
- /* banner3 */
- /* .banner3{
-   /* max-width: 1060px; */
-   /* margin: 0 auto; */
-   /* margin: 0 5rem; */
-   /* margin-top: 50px;
-   margin-bottom: 50px;
-  
- } */ */
-  .fitness-run{
-   max-width: 1060px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-  
-   /* background-color: rgba(255, 255, 255, 0.293); */
-   border-radius: 20px;
+    padding: 120px 0;
   }
- .b3-description{
-   width: 50%;
-   color: white;
-   text-align: left;
-   background-color: rgba(255, 255, 255, 0.293);
-   padding: 50px;
- }
- .b3-description h1{
-   margin-bottom: 40px;
+  .card {
+    max-width: 230px;
+  }
+
+  .move-segment-details h1{
+    font-size: 2rem;
+    font-weight: 600;
+    /* margin-top: 500px; */
+    margin-bottom: 30px;
+    color: white
+  }
+
+  .move-segment-details p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    /* color: rgba(255, 255, 255, 0.5); */
+  }
+
+  .moves {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+  }
+
+  .moves img {
+    border-radius: 5rem;
+    margin-bottom: 30px;
+  }
+   .moves h5,p{
+    color: white;
+   }
+
+  .banner3 {
+    background-color: black;
+
+  }
+
+  .fitness-run {
+    max-width: 1060px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    background-color: rgba(255, 255, 255, 0.293);
+
+  }
+
+  .fitness-run-details {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* align-items: center; */
+    /* border-radius: 20px; */
+  }
   
- }
- .b3-description p{
-   color: rgba(255, 255, 255, 0.6);
-   margin-bottom: 40px;
-   font-size: 1rem;
-   font-weight: 400;
-   /* background-color: rgba(255, 255, 255, 0.293); */
- }
- .run{
-   width: 50%;
-    background-color: rgba(255, 255, 255, 0.293); 
-   padding: 50px; 
- }
- .run img{
-   width: 100%;
-   border-radius: 40px;
-   /* background-color: rgba(255, 255, 255, 0.293); */
- }
+  /* .b3-description {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.293);
+    padding: 50px;
+  } */
 
- .banner4-heading{
-   margin-top: 200px;
-   color: white;
-   margin: 0 7rem;
- }
+  .b3-description h1 {
+    color: white;
+    margin-bottom: 40px;
 
- .grid-colum-sction{
-   /* max-width: 1060pc; */
-   padding: 0 7rem;
-   margin-bottom: 50px;
- }
- .image-frame{
-   
-   display: grid;
-   min-height: 350px;
-   grid-template-columns: repeat(12,1fr);
-   
- }
- .child1{
-   grid-column: 1/span 4;
-  background-color: rgba(6, 255, 209, 0.333); 
-   background-blend-mode: overlay;
-   /* filter: drop-shadow(rgba(6, 255, 210, 0.5)); */
- }
-   .child1 p{
-      position: relative;
-      left: 50px;
-      color:yellow;
-      bottom:50px;
-      font-size: 20px;
-      font-weight: 600;
+  }
 
-   }
- .child2{
-   grid-column: 5/span 5;
- }
- .child2 p{
-   position: relative;
-   left: 80px;
-   color:yellow;
-   bottom:280px;
-   font-size: 20px;
-   font-weight: 600;
+  .b3-description p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
 
-}
- .child3{
-   grid-column: 10/span 3;
- }
+  /* .run {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.293);
+    padding: 50px;
+  } */
+  .mobile-mode{
+    display: none;
+  }
+  .desktop-mode{
+    width: 100%;
+    border-radius: 40px;
+  }
+   /* training and exercise */
+      .workout-style{
+        background-color: black;
+      }
+  .banner4-heading {
+    margin-top: 200px;
+    color: white;
+    margin: 0 7rem;
+    
+  }
+  .banner4-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px ;
+    padding-top: 50px;
+  }
+  .banner4-heading p{
+    font-size: 15px;
+    color: rgba(214, 218, 218, 0.533);
+    margin-bottom: 20px;
+  }
+  .grid-colum-sction {
+    /* max-width: 1060pc; */
+    padding: 2rem 7rem;
+    /* margin-bottom: 50px; */
+  }
 
- .child3 p{
-   position: relative;
-   left: 2px;
-   color:yellow;
-   bottom:75px;
-   font-size: 20px;
-   font-weight: 600;
+  .image-frame {
 
-}
- .child4{
-   grid-column: 1/span 5;
- }
- .child4 p{
-   position: relative;
-   left: 300px;
-   color:yellow;
-   bottom:340px;
-   font-size: 20px;
-   font-weight: 600;
+    display: grid;
+    min-height: 350px;
+    grid-template-columns: repeat(12, 1fr);
 
-}
- .child5{
-   grid-column: 6/span 3;
- }
- .child5 p{
-   position: relative;
-   left: 50px;
-   color:yellow;
-   bottom:320px;
-   font-size: 20px;
-   font-weight: 600;
+  }
 
-}
- .child6{
-   grid-column: 9/span 4;
- }
- .child6 p{
-   position: relative;
-   left: 30px;
-   color:yellow;
-   bottom:80px;
-   font-size: 20px;
-   font-weight: 600;
+  .child1 {
+    grid-column: 1/span 4;
+    background-color: rgba(6, 255, 209, 0.333);
+    background-blend-mode: overlay;
+    /* filter: drop-shadow(rgba(6, 255, 210, 0.5)); */
+  }
 
-}
- .image-frame img{
-   width: 100%;
-   height: 100%;
- }
- .bmi{
-   color: white;
-   text-align: center;
- }
+  .child1 p {
+    position: relative;
+    left: 50px;
+    color: yellow;
+    bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+  }
 
- .Calculator{
-   margin: 0 auto;
-   padding:0 7rem;
-   display: flex;
-   justify-content: space-between;
-   /* color: white; */
-   background-color:rgb(34, 34, 34);
-   /* border: 2px solid yellow; */
-   margin-bottom: 50px;
- }
- td{
-   padding: 15px 15px 15px;
-   border: 1px solid rgba(255, 255, 255, 0.6);
-   width: 50%;
- }
- th {
-   border: 1px solid rgba(255, 255, 255, 0.6);
-   width: 50%;
-   
- }
-   table{
-   /* margin-left: 150px; */
-   padding: 150px 150px;
-   border: none;
- }
- .ranges h1,.frms h1{
-   font-size: 1.5rem;
-   font-weight: 900;
-   color: white;
-   margin: 50px;
-   margin-left: 150px;
- }
-   .frms p{
-      font-size: 1rem;
-      font-weight: 400;
-      color: rgba(255, 255, 255, 0.6);
-   
-   }
- .ranges,.frms{
-   width:50%;
-   text-align: center;
- }
-   form>div{
+  .child2 {
+    grid-column: 5/span 5;
+  }
+
+  .child2 p {
+    position: relative;
+    left: 80px;
+    color: yellow;
+    bottom: 280px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+
+  }
+
+  .child3 {
+    grid-column: 10/span 3;
+  }
+
+  .child3 p {
+    position: relative;
+    left: 2px;
+    color: yellow;
+    bottom: 75px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+  }
+
+  .child4 {
+    grid-column: 1/span 5;
+  }
+
+  .child4 p {
+    position: relative;
+    left: 300px;
+    color: yellow;
+    bottom: 340px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+  }
+
+  .child5 {
+    grid-column: 6/span 3;
+  }
+
+  .child5 p {
+    position: relative;
+    left: 50px;
+    color: yellow;
+    bottom: 320px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+  }
+
+  .child6 {
+    grid-column: 9/span 4;
+  }
+
+  .child6 p {
+    position: relative;
+    left: 30px;
+    color: yellow;
+    bottom: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+  }
+
+  .image-frame img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bmi {
+    color: white;
+    text-align: left;
+    padding: 30px 120px;
+    background-color: black;
+  }
+    .bmi h1{
+      font-size: 40px;
+    }
+  .Calculator {
+    margin: 0 auto;
+    padding: 2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    /* border: 2px solid yellow; */
+    /* margin-bottom: 50px; */
+  }
+
+  .rangs-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+  }
+
+  td,
+  th {
+    padding: 20px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: 50%;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .table-container {
+    background-color: rgb(34, 34, 34);
+  }
+
+  table {
+    margin-top: 50px;
+    border: 2px solid white;
+  }
+
+  .ranges h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    /* margin-left: 60px; */
+    text-align: left;
+
+  }
+
+  .ranges,
+  .frms {
+    width: 50%;
     text-align: center;
-   }
-  td,input,select{
-   color: rgba(255, 255, 255, 0.6);
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: inline;
   }
 
-      /* team */
-      .visual-team{
-        max-width: 1100px;
-      }
-      .heaing-of-team{
-         text-align: center;
-      }
+  .form-heading {
+    /* border: 2px solid yellow; */
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 20px 0;
+    text-align: left;
+  }
+  .bmi-calculate-button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    /* text-align: left; */
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 1.5rem;
+    border-radius: 40px;
+    font-weight:800;
+  }
+  /* .form-heading h1 {
+    margin-right: 250px;
+  }
 
-      
-    .cards{
-      padding: 0 7rem;
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      gap: 2px 1px;
-      background-color: rgba(255, 255, 255, 0);
+  .form-heading p {
+    margin-left: 30px;
+  } */
+
+
+  input,
+  select {
+    width: 48%;
+  }
+
+  .fst-row,
+  .scnd-row {
+    margin-bottom: 10px;
+    padding: 10px 50px 15px 5px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+  }
+
+  .form-top,.form-middle{
+    justify-content: space-between;
+  }
+
+  #sex-id select{
+    width: 48%;
+  }
+  #activity-id select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .activity-factor {
+    padding: 15px 120px 15px 7px;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+  }
+
+  form>div,
+  .form-submit {
+    margin: 0 45px;
+  }
+  .frms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* team */
+  .team-meet{
+        /* margin: 0 7rem; */
+       background-color: black;
+       padding: 50px 0;
+      }
+  .visual-team {
+    max-width: 1044px;
+    color: white;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.293);
+    
+  }
+  .heading-of-team{
+     text-align: center;
+     /* margin-top: 50px; */
+
+  }
+   .heading-of-team h1{
+     font-size: 50px;
+     font-weight: 700;
+     margin-bottom: 20px;
+    
+   }
+   .heading-of-team p{
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 20px;
+   }
+  .cards {
+    /* padding: 0 7rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px ;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards img {
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+  } 
+    .positioning{
+      position: relative;
+    }
+    .trainer-info{
+      position: absolute;
+    }  
+      .info1,
+      .info2,
+      .info3,
+      .info4,
+      .info5,
+      .info6{
+       
+        bottom: 50px;
+      }
+      .info1-trainer,
+      .info2-trainer,
+      .info3-trainer,
+      .info4-trainer,
+      .info5-trainer,
+      .info6-trainer{
+        bottom: 30px;
+      }
+     .challage-part{
+      /* background-color: black; */
+      /* border: 2px solid red; */
+      background-color: black;
+      padding: 0px 80px;
+     }
+     .challage-part-area{
+      /* max-width: 1060px; */
+      padding: 50px;
+      /* border: 2px solid yellow; */
+      text-align: center;
+      background-image: url('../images/exercise2.png');
+      background-color: rgba(255, 255, 255, 0.5);
+      background-blend-mode: overlay;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* padding: 200px; */
+     }
+     .challage-part-description{
+      display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-      .cards img{
-         border-radius: 20px;
-         width: 70%;
-      }
      
+     }
+       /* .blog{
+        color: white;
+       } */
+       .blog{
+        width: 30%;
+       }
+        .blog h1{
+          font-size: 35px;
+          font-weight: 600;
+          margin: 20px 15px;
+        }
+        .membership-form{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          
+          /* color: white; */
+         }
+         .membership-form>div{
+          margin-bottom: 20px;
+         }
+         .membership-form select{
+          width: 100%;
+          padding: 5px 30px 5px 10px;
+          border-radius: 5px;
+         }
+         .name-mail{
+          display: flex;
+          justify-content: space-between;
+         }
+        input{
+        width: 50%;
+
+       }
+       /* select{
+        width: 100%;
+       } */
+        .last-part{
+          background-color: black;
+          padding-top: 50px;
+        }
+  footer{
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
+    color: white;
+    /* display: flex; */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.293);
+    /* background-color: black; */
+    /* border: 2px solid blue; */
+    /* padding: 50px; */
+  }
+
+  .ft-child1{
+    width: 40%;
+    /* padding: 10px 40px; */
+    /* color: white; */
+  }
+
+  .ft-child2,
+  .ft-child3 {
+    width: 30%;
+    text-align: center;
+  }
+    .footer-fitness{
+      font-size: 50px;
+      font-weight: 900;
+      color:rgb(230, 83, 60);
+      /* margin-bottom: 30px; */
+      padding: 50px 90px 20px 90px;
+    }
+    .ft-child1 p,
+    .ft-child2 h5,
+    .ft-child3 h5
+    {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 15px;
+      margin-bottom: 50px;
+      padding-left: 90px;
+    }
+      .ft-child2 h1, 
+      .ft-child3 h1{
+        padding: 50px 50px;
+      }
+      #club-feature{
+        padding-left: 20px;
+        margin-bottom: 10px;
+      }
+      .copyright-part{
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        padding: 200px 80px;
+      }
+      .copyright{
+        margin-top: 20px;
+      }

@@ -8,13 +8,20 @@
         display: block;
         color: white;
     }
-   header{
+   /* header{ */
+    /* width: 100%; */
+    /* padding: 10px ; */
+    /* margin-top: 20px; */
+   /* } */
+   .display{
     padding: 0 2rem;
-    margin-top: 20px;
    }
-    .navbar{
-  margin-bottom: 40px;
-    }
+   .logo{
+    margin-right: 120px;
+   }
+ li{
+  margin-right: 0;
+ }
     .banner1{   
       flex-direction: column;
     }
@@ -25,24 +32,50 @@
     /* border: 2px solid yellow; */
     padding: 0 0;
     
+} 
+.banner1-child img {
+  width: 100%;
 }
 
+ .video{
+    width: 150px;
+    height: 60px;
+ }
+   .tutorial{
+    left: -5px;
+  
+   }
+   .free{
+    right:550px;
+   
+   }
+
+   .move-segment-details{
+    padding:2rem 2rem;
+   }
  .moves{
     flex-direction:column;
+    gap:30px;
  }
- .banner3{
+ .fitness-run-details{
     flex-direction: column;
     /* max-width: 350px; */
-    margin: 0 2rem;
+     margin: 0 2rem; */
    /* border: 2px solid yellow; */
-   
-    text-align: left;
+   align-items: center;
+    /* text-align: left; */
     
  }
  .b3-description,.run{
     width: 100%;
  }
-
+ .desktop-mode{
+     display: none;
+ }
+   .mobile-mode{
+      display: block;
+      width: 100%;
+   }
  .banner4-heading{
     text-align: left;
     padding: 0 2rem;
@@ -54,6 +87,9 @@
    
     min-height: 250px;
  }
+   .banner4-heading{
+    margin: 0 2rem;
+   }
  .child1{
     grid-column: 1/span 7;
     /* grid-row:1/span 6; */
@@ -79,15 +115,56 @@
   .child6{
     display: none;
 }
-
- .Calculator{
-   flex-direction: column;
-   padding: 0 2rem;
-   width: 100%;
-
- }
- table{
-   padding: 5px 5px;
-   width: 100%;
- }
+.child1 p,.child2 p,.child3 p,.child4 p,.child5 p,.child6 p{
+  display: none;
 }
+   .bmi{
+    padding: 2rem 2rem;
+    
+   }
+ .Calculator{
+    flex-direction: column;
+   padding: 0 2rem;
+   /* width: 100%; */ 
+   /* display: none; */
+
+ }
+   th,td{
+    padding: 20px 30px;
+   }
+ table{
+  /* display: none; */
+    width: 100%; 
+ }
+ .ranges,
+  .frms {
+    width: 100%;
+  }
+.challage-part{
+  padding: 0 2rem;
+}
+.challage-part-area{
+  padding: 10px;
+  background-size: cover;
+}
+  .challage-part-description{
+     flex-direction: column;
+     gap: 40px;
+  }
+   .blog,
+   .membership-form,
+   .joining-form{
+    width: 100%;
+   }
+
+    .flex-part{
+      flex-direction: column;
+    }
+    .ft-child1,
+   .ft-child2,
+   .ft-child3 {
+    width: 100%;
+   }
+   .ft-child1 p{
+    padding-left: 20px;
+   }
