@@ -122,10 +122,9 @@
     color: rgba(255, 255, 255, 0.5);
   }
 
-  .btns{
-      display: flex;
-      
-   }
+  /* .btns{
+      display: inline;
+   } */
   .btn-prime {
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
