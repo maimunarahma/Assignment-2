@@ -1,5 +1,5 @@
  @media screen and (max-width:576px){
-    
+     
     .lists{
         display: none;
     }
@@ -169,3 +169,4 @@
    .ft-child1 p{
     padding-left: 20px;
    }
+  } 
