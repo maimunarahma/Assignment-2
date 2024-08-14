@@ -357,9 +357,9 @@
   
   .child1 p {
     position: relative;
-    left: 50px;
+    left: 30px;
     color: black;
-    bottom: -280px;
+    bottom: 50px;
     font-size: 20px;
     font-weight: 600;
     background-color: transparent;
@@ -395,8 +395,8 @@
 
   .child3 p {
     position: relative;
-    left: 2px;
-    color: yellow;
+    left: 4px;
+    color: rgba(230, 132, 84, 0.981);
     bottom: 75px;
     font-size: 20px;
     font-weight: 600;
@@ -412,9 +412,9 @@
 
   .child4 p {
     position: relative;
-    left: 300px;
+    left: 150px;
     color: yellow;
-    bottom: 340px;
+    bottom: 60px;
     font-size: 20px;
     font-weight: 600;
     background-color: transparent;
@@ -433,7 +433,7 @@
     position: relative;
     left: 50px;
     color: rgb(8, 8, 8);
-    bottom: 320px;
+    bottom: 390px;
     font-size: 20px;
     font-weight: 600;
     background-color: transparent;
@@ -450,7 +450,7 @@
   .child6 p {
     position: relative;
     left: 30px;
-    color: yellow;
+    color: rgb(128, 0, 255);
     bottom: 80px;
     font-size: 20px;
     font-weight: 600;
@@ -707,7 +707,7 @@
         width: 100%;
        } */
         .last-part{
-          background-color: rgba(255, 255, 255, 0.293);
+          background-color: rgba(27, 27, 27, 0.718);
          
           color: white;
           
@@ -726,6 +726,7 @@
   .ft-child3 {
     /* padding-top: 50px; */
     text-align: center;
+    padding-top: 140px;
   }
     .footer-fitness{
       font-size: 50px;
@@ -743,13 +744,18 @@
     {
       color: rgba(255, 255, 255, 0.6);
       font-size: 15px;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
       /* padding-left: 90px; */
     }
-    
-      #club-feature{
-        padding-left: 20px;
-        margin-bottom: 10px;
+      .ft-child1 p{
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .club-feature{
+        /* padding-left: 20px; */
+        /* margin-bottom: 10px; */
+        font-size: 23px;
+        font-weight: 400;
       }
       .copyright-part{
         color: rgba(255, 255, 255, 0.6);
