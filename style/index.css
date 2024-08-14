@@ -647,11 +647,14 @@
      .challage-part{
       /* background-color: black; */
       /* border: 2px solid red; */
+      
       background-color: black;
-      padding: 0px 80px;
+      padding: 60px 0;
+    
      }
      .challage-part-area{
-      /* max-width: 1060px; */
+      width: 85%;
+      border-radius: 28px;
       padding: 50px;
       /* border: 2px solid yellow; */
       text-align: center;
@@ -661,13 +664,14 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      
       /* padding: 200px; */
      }
      .challage-part-description{
       display: flex;
       justify-content: space-between;
       align-items: center;
-     
+    
      }
        /* .blog{
         color: white;
@@ -684,35 +688,56 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          /* border: 2px solid red; */
           
           /* color: white; */
          }
          .membership-form>div{
           margin-bottom: 20px;
          }
-         .membership-form select{
+         select{
           width: 100%;
-          padding: 5px 30px 5px 10px;
+          padding: 5px 15px 5px 5px;
           border-radius: 5px;
+          border: none;
+          margin-bottom: 5px;
          }
          .name-mail{
           display: flex;
           justify-content: space-between;
+          align-items: center;
+          margin-top: 10px;
+        gap: 20px;
          }
         input{
         width: 50%;
-
+      border-radius: 5px;
+      padding: 5px 15px 5px 5px;
+      border: none;
+      gap: 20px;
        }
-       /* select{
-        width: 100%;
-       } */
+      
         .last-part{
           background-color: rgba(27, 27, 27, 0.718);
          
           color: white;
-          
+         
         }
-  
+        .trainee-flex{
+          gap: 20px;
+        }
+    #qualification{
+      width: 100%;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    .membership-form button{
+      margin-left: -5px;
+    }
+    .joining-form button{
+      margin-left: -150px;
+    }
   .footer-container{
     width: 80%;
     

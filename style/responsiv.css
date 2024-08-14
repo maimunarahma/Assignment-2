@@ -176,20 +176,37 @@
   }
 .challage-part{
   padding: 0 2rem;
+  
 }
 .challage-part-area{
-  padding: 10px;
+  /* padding: 10px; */
   background-size: cover;
+  
 }
   .challage-part-description{
      flex-direction: column;
-     gap: 40px;
+     gap: 20px;
+  }
+  .name-mail{
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  input{
+    width: 100%;
+  }
+  .joining-form button{
+    margin-left:-30px;
   }
    .blog,
    .membership-form,
    .joining-form{
     width: 100%;
    }
+   .trainee-flex{
+    gap: 3px;
+  }
    .footer-fitness{
     padding: 0px;
    }
