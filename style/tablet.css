@@ -1,0 +1,75 @@
+@media screen and (max-width: 976px) and (min-width: 575px) {
+  
+   ul{
+    margin-right: 2px;
+   }
+    .banner1 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner1-description {
+        width: 80%;
+}
+ul{
+    margin-right: 2px;
+} 
+  li{
+    margin-right: 30px;
+  }
+.logo{
+     margin-right: 150px;
+}
+ .navbar{
+    width: 90%;
+ }
+ .moves{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+ }
+  .heading-para{
+    padding: 0 50px;
+  }
+  .card{
+     gap: 2px;
+  }
+  .mobile-mode{
+    display: none;
+  }
+  .desktop-mode{
+    display: block;
+    width: 90%;
+  }
+    .b3-description{
+        margin-left: 10px;
+    }
+     /* .b3-description h1{
+        margin: 2px 0;
+     } */
+     .fitness-run {
+        width: 90%;
+     }
+     .Calculator {
+        flex-direction: column;
+        padding: 2px 10px;
+     }
+    
+    .ranges{
+        width: 20%;
+        border: 2px solid red;
+        margin-left: 50px;
+    }
+     .ranges,
+  .frms {
+     width: 90%;
+     margin-left: 20px;
+     padding: 0;
+    }
+    .form-container{
+       margin-left: 60px;
+     width: 83%;
+    }
+   
+   
+    }
