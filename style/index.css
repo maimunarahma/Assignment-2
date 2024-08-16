@@ -496,7 +496,8 @@
 
   table {
     margin-top: 50px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-collapse: collapse;
   }
 
   .ranges h1 {
@@ -560,8 +561,10 @@
   #activity-id select {
     width: 100%;
     margin-bottom: 10px;
-  }
+    border: 2px solid rgba(255, 255, 255, 0.6);
+  } 
 
+ 
   .activity-factor {
     padding: 15px 120px 15px 7px;
     color: rgba(255, 255, 255, 0.6);
@@ -584,11 +587,12 @@
        padding: 50px 0;
       }
   .visual-team {
-    max-width: 1044px;
+    width: 80%;
     color: white;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 180px;
     background-color: rgba(255, 255, 255, 0.293);
+    border-radius: 20px;
     
   }
   .heading-of-team{
@@ -738,20 +742,22 @@
     .joining-form button{
       margin-left: -150px;
     }
+
   .footer-container{
     width: 80%;
-    
-    /* border: 2px solid red; */
+   
   }
   .flex-part{
     align-items: center;
+    justify-content: space-between;
   }
 
   .ft-child2,
   .ft-child3 {
     /* padding-top: 50px; */
+    margin-top: 100px;
+    margin-left: 120px;
     text-align: center;
-    padding-top: 140px;
   }
     .footer-fitness{
       font-size: 50px;
@@ -759,6 +765,7 @@
       color:rgb(230, 83, 60);
    
     }
+  
     .ft-child1 p{
       color: rgba(255, 255, 255, 0.6);
       font-size: 15px;
@@ -770,15 +777,20 @@
       color: rgba(255, 255, 255, 0.6);
       font-size: 15px;
       margin-bottom: 20px;
-      /* padding-left: 90px; */
+    
+      
+    }
+    .tablet-flex{
+      display: flex;
+     /* border: 2px solid red; */
+      align-items: center;
     }
       .ft-child1 p{
         font-size: 14px;
         font-weight: 400;
       }
       .club-feature{
-        /* padding-left: 20px; */
-        /* margin-bottom: 10px; */
+     
         font-size: 23px;
         font-weight: 400;
       }

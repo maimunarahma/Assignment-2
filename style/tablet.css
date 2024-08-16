@@ -57,7 +57,7 @@ ul{
     
     .ranges{
         width: 20%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-left: 50px;
     }
      .ranges,
@@ -70,6 +70,31 @@ ul{
        margin-left: 60px;
      width: 83%;
     }
-   
-   
+    .visual-team{
+        padding: 50px;
+       }
+    .challage-part-description{
+        flex-direction: column;
+        gap: 20px;
     }
+   
+    .ft-child1,
+    .tablet-flex{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+   .flex-part{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 2px solid red; */
+   }
+  
+ 
+   
+    .ft-child2 h5,
+    .ft-child3 h5
+    {
+        /* border: 2px solid black; */
+        padding-right: 60px;
+}
+}

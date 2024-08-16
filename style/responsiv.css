@@ -159,7 +159,9 @@
      gap: 2%;
 
   }
-   
+   .visual-team{
+    padding: 0;
+   }
   
    .info5,
       .info6,
@@ -199,6 +201,13 @@
   .joining-form button{
     margin-left:-30px;
   }
+  .tablet-flex{
+    flex-direction: column;
+  }
+  .ft-child2,
+  .ft-child3{
+    margin-left: 20px;
+  }
    .blog,
    .membership-form,
    .joining-form{
@@ -224,10 +233,5 @@
     #club-feature{
       padding-left: 0px;
     }
-    /* .copyright-part{
-      padding: 20px;
-    }
-    .copyright{
-      margin-top: 0;
-  } */
+   
   }
